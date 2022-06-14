@@ -24,7 +24,7 @@ const Index = () => {
         Intro 
       </h1>
       <p className="text-xl font-sans text-gray-800 mt-4 mb-10 ">
-        Npm install projektet og opret en branch som inkluderer dit navn. Når du
+        Npm install projektet og opret en branch som inkluderer dit navn... Når du
         har fået installeret projektet, skal du gå ind på figma, her vil du
         finde det design som du skal udvikle ud fra. Til dagligt bliver alt
         designet til Dreamplans udviklere i figma.
