@@ -29,6 +29,7 @@ module.exports = {
         },
         teal: "#4D8387",
         greenish: "#669E83",
+        gray: "#2F3032",
       },
       fontSize: {
         "dp-headline-2-t": "48px",

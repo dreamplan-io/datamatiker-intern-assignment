@@ -1,6 +1,4 @@
-import React from 'react';
-
-import { IconType } from '../types/commonTypes';
+import { IconType } from "../types/commonTypes";
 
 const PhoneIcon = (props: IconType) => {
   const { width, height, className } = props;

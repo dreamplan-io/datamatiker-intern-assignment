@@ -12,7 +12,7 @@ const Index = () => {
           className="bg-teal px-2"
         />
       </div>
-      <div className="container xl:px-40">
+      <div className="container md:px-10 lg: px-20 xl:px-40">
         <div className="md:inline-flex justify-between gap-x-48 xl:gap-x-96 md:mb-20">
           <Text
             title="Generelt"
