@@ -3,7 +3,7 @@ import React from "react";
 import { IconType } from "../types/commonTypes";
 
 const PhoneIcon = (props: IconType) => {
-  const { width, height, className, fill } = props;
+  const { width, height, className, fill, rotate } = props;
   return (
     <>
       <svg
@@ -12,6 +12,7 @@ const PhoneIcon = (props: IconType) => {
         viewBox="0 0 10 16"
         fill={fill}
         className={className}
+        transform={"rotate(" + rotate + ")"}
         xmlns="http://www.w3.org/2000/svg"
       >
         <path

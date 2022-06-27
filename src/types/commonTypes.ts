@@ -4,4 +4,5 @@ export interface IconType {
   height: number;
   className?: string;
   style?: string;
+  rotate?: number;
 }

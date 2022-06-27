@@ -9,7 +9,13 @@ const ToggleDisplay = ({ title, text }: { title: string; text: string }) => {
         className="cursor-pointer my-4 inline-flex"
         onClick={() => setActive(!active)}
       >
-        <Arrow width={10} height={16} fill="none" className="mr-4 mt-2" />
+        <Arrow
+          width={10}
+          height={16}
+          rotate={active ? 90 : 0}
+          fill="none"
+          className="mr-4 mt-2"
+        />
         <h1 className="font-bold text-dp-headline-6-m">{title}</h1>
       </div>
       {active && <p className="ml-6">{text}</p>}

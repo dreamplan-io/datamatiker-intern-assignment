@@ -40,8 +40,12 @@ const Footer = () => {
         <div className="py-4">
           <p>følg os på sociale medier:</p>
           <div className="inline-flex py-2">
-            <LinkedinIcon className="mr-4" width={53} height={53} />
-            <FacebookIcon width={53} height={53} />
+            <a href="#">
+              <LinkedinIcon className="mr-4" width={53} height={53} />
+            </a>
+            <a href="#">
+              <FacebookIcon width={53} height={53} />
+            </a>
           </div>
         </div>
       </div>
