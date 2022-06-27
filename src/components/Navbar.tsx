@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   return (
-    <nav className="px-4 py-2 inline-flex">
+    <nav className="px-4 md:px-20 xl:px-40 py-2 inline-flex">
       <LogoIcon width={57} height={53} />
       <div className="absolute m-1 top-0 left-1/2 transform -translate-x-1/2">
         <ul className="inline-flex">
