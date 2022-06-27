@@ -17,12 +17,14 @@ module.exports = {
       colors: {
         dp: {
           'blue-500': '#0700F6',
+          'medium-blue':'#4D8387',
           'light-blue-400': '#99E2E7',
           'light-blue-800': '#33585A',
           'grayscale-100': '#FFFFFF',
           'grayscale-300': '#D5D9E3',
           'grayscale-800': '#2F3032',
           'yellow-500': '#FAF33E',
+          'jet': '#2F3032'
         },
       },
       fontSize: {
