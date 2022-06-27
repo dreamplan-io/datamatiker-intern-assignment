@@ -27,7 +27,8 @@ module.exports = {
           "grayscale-800": "#2F3032",
           "yellow-500": "#FAF33E",
         },
-        "bg-teal": "#4D8387",
+        teal: "#4D8387",
+        greenish: "#669E83",
       },
       fontSize: {
         "dp-headline-2-t": "48px",
