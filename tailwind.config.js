@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
@@ -8,6 +9,12 @@ module.exports = {
       xl: '1280px',
       '2xl': '1440px',
       '3xl': '1920px',
+    },
+    colors: {
+      'backgroundColor': '#4D8387',
+      'backgroundColorOverblik': '#669E83',
+      'whiteText': '#ffffff',
+      'buttonBlue': '#0700F6',
     },
     fontFamily: {
       sans: ['Montserrat', 'Roboto', 'sans-serif'],
