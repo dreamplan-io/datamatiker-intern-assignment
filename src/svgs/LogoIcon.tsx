@@ -1,10 +1,10 @@
 import React from 'react';
-
 import { IconType } from '../types/commonTypes';
 
 const LogoIcon = (props: IconType) => {
   const { width, height, fill, className } = props;
   return (
+    
     <svg
       id="Layer_1"
       data-name="Layer 1"
