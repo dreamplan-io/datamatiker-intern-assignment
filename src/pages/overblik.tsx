@@ -2,12 +2,12 @@ import React from 'react';
 import Header from'../components/Header/Header/header'
 import Footer from '../components/Header/Footer/footer'
 
-import Hero from '../components/Header/Hero/hero'
+import HeroOverblik from '../components/Header/Hero/heroOverblik'
 const Overblik = () => {
   return (
     <div className='text-dp-grayscale-800' >
      <Header/>
-      <Hero/>
+      <HeroOverblik/>
       <section className="px-8 md:px-20 xl:px-24 mb-32">
       <h3 className="mb-4 text-dp-headline-5-m font-semibold md:text-dp-headline-4-m xl:text-dp-headline-3-t">Generelt</h3>
       <p className="pb-6 tracking-[.005em]">
