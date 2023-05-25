@@ -7,7 +7,9 @@ export default function ContentQ() {
     <div className="mt-20 mb-20">
       <div className="md:flex md:space-x-24 mb-24 lg:space-x-40">
         <div className="mb-12 sec">
-          <h3 className="text-xl font-semibold mb-3">Generelt</h3>
+          <h3 className="text-xl md:text-2xl lg:text-4xl font-semibold mb-3">
+            Generelt
+          </h3>
           <p className="text-base">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -18,7 +20,9 @@ export default function ContentQ() {
         </div>
 
         <div className="sec">
-          <h3 className="text-xl font-semibold mb-3">Anvendelse</h3>
+          <h3 className="text-xl	md:text-2xl lg:text-4xl font-semibold mb-3">
+            Anvendelse
+          </h3>
           <p className="text-base">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -30,14 +34,16 @@ export default function ContentQ() {
       </div>
 
       <div>
-        <h3 className="font-medium text-2xl mb-12">Grundlæggende</h3>
-        <div className="flex mb-6">
+        <h3 className="font-medium text-2xl lg:text-4xl mb-12">
+          Grundlæggende
+        </h3>
+        <div className="flex mb-6 items-center">
           <IoIosArrowForward className="text-2xl mr-3" />
           <p className="font-semibold text-lg">
             Hvordan får jeg adgang til min Dreamplan profil?
           </p>
         </div>
-        <div className="flex">
+        <div className="flex items-center">
           <IoIosArrowForward className="text-2xl mr-3" />
           <p className="font-semibold text-lg">
             Hvordan begynder mit abonnement

@@ -10,7 +10,9 @@ const Hero = (props: any) => {
         <h1 className="text-base font-medium uppercase">
           {props.lilleOverskrift}
         </h1>
-        <p className="text-3xl font-semibold">{props.storOverskrift}</p>
+        <p className="text-3xl md:text-5xl font-semibold">
+          {props.storOverskrift}
+        </p>
       </div>
     </div>
   );
