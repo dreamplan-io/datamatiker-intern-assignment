@@ -23,6 +23,7 @@ module.exports = {
           'grayscale-300': '#D5D9E3',
           'grayscale-800': '#2F3032',
           'yellow-500': '#FAF33E',
+          hero: '#4e8387',
         },
       },
       fontSize: {

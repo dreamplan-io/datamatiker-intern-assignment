@@ -1,10 +1,17 @@
 import React from 'react';
 
+import Header from '../components/Header/header';
+import Hero from '../components/Hero/hero';
+
 const Overblik = () => {
   return (
-    <div className=" p-48 text-center text-dp-headline-2-t font-alternative font-bold">
-      Overblik
-    </div>
+    <>
+      <Header />
+      <Hero
+        lilleOverskrift="overblik"
+        storOverskrift="Hej, her kan du få et overblik"
+      />
+    </>
   );
 };
 
