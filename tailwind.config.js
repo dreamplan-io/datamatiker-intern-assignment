@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     screens: {
       xs: '375px',
+      sm: '640px',
       md: '768px',
       lg: '1024px',
       xl: '1280px',
@@ -16,6 +17,7 @@ module.exports = {
     extend: {
       colors: {
         dp: {
+          'blue-400': '#4D8387',
           'blue-500': '#0700F6',
           'light-blue-400': '#99E2E7',
           'light-blue-800': '#33585A',
