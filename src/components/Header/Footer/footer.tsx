@@ -8,9 +8,11 @@ import LocationIcon from '../../../svgs/LocationIcon';
 import LogoIcon from '../../../svgs/LogoIcon';
 import PhoneIcon from '../../../svgs/PhoneIcon';
 
+// Footer
 const Footer = () => {
   return (
     <footer className="font-alternative text-dp-grayscale-800 flex w-full flex-col lg:flex-row px-8 lg:px-24 py-16 space-y-32 lg:space-y-0 ">
+      {/* Column with info */}
       <div className="space-y-3 w-full lg:h-72">
         <LogoIcon width={60} height={60} />
         <div className="flex space-x-2 items-center hover:underline">
@@ -39,6 +41,7 @@ const Footer = () => {
         </div>
       </div>
 
+      {/* Column with SoMe */}
       <div className="w-full flex lg:justify-end items-center lg:h-72 lg:order-3">
         <div className="space-y-3">
           <p>Følg os på sociale medier:</p>
@@ -70,6 +73,7 @@ const Footer = () => {
         </div>
       </div>
 
+      {/* Column with copyright */}
       <div className="flex justify-center items-end lg:w-min whitespace-nowrap lg:h-72 lg:order-2">
         <p className="">&copy; Copyright Dreamplan.io</p>
       </div>

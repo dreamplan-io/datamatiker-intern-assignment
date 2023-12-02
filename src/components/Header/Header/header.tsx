@@ -4,9 +4,11 @@ import Link from 'next/link';
 
 import LogoIcon from '../../../svgs/LogoIcon';
 
+// Header
 const Header: React.FC = () => {
   return (
     <header className="flex p-4 justify-between w-screen">
+      {/* Dreamplan logo */}
       <div className=" w-1/3">
         <div className="pl-4 lg:pl-20 w-fit">
           <Link className="" href="/">
@@ -17,6 +19,7 @@ const Header: React.FC = () => {
         </div>
       </div>
 
+      {/* Navbar links */}
       <nav className="flex justify-center items-center w-1/3 space-x-10 text-dp-bodytext-m-dt">
         <Link href="/qa">
           <a className="hover:scale-110 transition-transform">QA</a>

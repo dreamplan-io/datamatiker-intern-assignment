@@ -5,6 +5,7 @@ interface ContentProps {
   content: ReactNode;
 }
 
+// Container for content
 const ContentContainer = (props: ContentProps) => {
   return (
     <div className="space-y-3">

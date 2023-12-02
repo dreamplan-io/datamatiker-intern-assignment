@@ -5,6 +5,7 @@ interface ButtonProps {
   text: string;
 }
 
+// Blue CTA button
 const CtaButton = (props: ButtonProps) => {
   return (
     <div className="flex justify-center">

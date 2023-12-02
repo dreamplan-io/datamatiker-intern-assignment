@@ -4,6 +4,7 @@ import Collapse from '../components/Header/Content/collapse';
 import ContentContainer from '../components/Header/Content/contentContainer';
 import Hero from '../components/Header/Hero/hero';
 
+// Q&A page
 const Qa = () => {
   return (
     <section className="mb-auto">

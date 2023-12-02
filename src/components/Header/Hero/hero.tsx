@@ -6,6 +6,7 @@ interface HeroProps {
   heading: string;
 }
 
+// Hero section
 const Hero = (props: HeroProps) => {
   return (
     <div

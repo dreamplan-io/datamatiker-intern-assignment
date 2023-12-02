@@ -6,7 +6,7 @@ interface CollapseProps {
   headline: string;
   text: string;
 }
-
+// Expand-collapse toggle
 const Collapse = (props: CollapseProps) => {
   return (
     <div className="pb-3">

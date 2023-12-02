@@ -4,6 +4,7 @@ import ContentContainer from '../components/Header/Content/contentContainer';
 import CtaButton from '../components/Header/Content/ctaButton';
 import Hero from '../components/Header/Hero/hero';
 
+// Overblik page
 const Overblik = () => {
   return (
     <section className="mb-auto">
