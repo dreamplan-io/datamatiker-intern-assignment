@@ -13,8 +13,8 @@ const Qa = () => {
         bgColor="#4D8387"
       />
 
-      <div className="px-8 py-24 lg:px-24 xl:px-28 lg:py-36 space-y-32 text-dp-grayscale-800">
-        <div className="flex justify-between space-x-20">
+      <div className="px-8 py-24 lg:px-24 lg:py-36 xl:px-28 space-y-32 text-dp-grayscale-800">
+        <div className="flex flex-col space-y-10 lg:flex-row lg:justify-between lg:space-x-20 lg:space-y-0">
           <div className="max-w-xl">
             <ContentContainer
               headline="Generelt"

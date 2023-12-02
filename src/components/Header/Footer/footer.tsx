@@ -13,19 +13,25 @@ const Footer = () => {
     <footer className="font-alternative text-dp-grayscale-800 flex w-full flex-col lg:flex-row px-8 lg:px-24 py-16 space-y-32 lg:space-y-0 ">
       <div className="space-y-3 w-full lg:h-72">
         <LogoIcon width={60} height={60} />
-        <div className="flex space-x-2 items-center">
+        <div className="flex space-x-2 items-center hover:underline">
           <LocationIcon width={16} height={22} />
-          <p>Applebys Pl. 7, 1411 København, DK</p>
+          <a
+            href="https://www.google.com/maps/place/Applebys+Pl.+7,+1411+K%C3%B8benhavn/@55.671335,12.5851452,17z/data=!4m6!3m5!1s0x4652533fc596626f:0xd15c5af5d23dea94!8m2!3d55.671335!4d12.5851452!16s%2Fg%2F11bw43k0c2"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Applebys Pl. 7, 1411 København, DK
+          </a>
         </div>
-        <div className="flex space-x-2 break-all items-center bg">
+        <div className="flex space-x-2 break-all items-center hover:underline">
           <EmailIcon width={20} height={18} />
           <a href="mailto:kundeservice@dreamplan.io">
             kundeservice@dreamplan.io
           </a>
         </div>
-        <div className="flex space-x-2 items-center">
+        <div className="flex space-x-2 items-center hover:underline">
           <PhoneIcon width={21} height={21} />
-          <p>+ 45 4096 5874</p>
+          <a href="tel:+4540965874">+ 45 4096 5874</a>
         </div>
         <div className="flex space-x-2 items-center">
           <CvrIcon width={18} height={22} />
