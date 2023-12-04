@@ -6,6 +6,29 @@
 
 @layer base {
 
+  /* Font sizes, text color, font family, font weight, text align, text transform, letter spacing */
+  h1 {
+    @apply xs:text-dp-headline-2-m lg:text-dp-headline-2-t text-dp-grayscale-100 font-sans font-semibold text-center normal-case tracking-normal;
+  }
+  #subheader {
+    @apply text-dp-bodytext-l-m text-dp-grayscale-100 font-sans font-normal text-center uppercase tracking-wide;
+  }
+  h2 {
+    @apply xs:text-dp-headline-5-m md:text-dp-headline-3-m lg:text-dp-headline-4-t text-dp-grayscale-800 font-sans font-semibold text-left normal-case tracking-normal;
+  }
+  h3 {
+    @apply text-dp-headline-6-m text-dp-grayscale-800 font-sans font-medium text-left normal-case tracking-normal;
+  }
+  p {
+    @apply text-dp-bodytext-l-m text-dp-grayscale-800 font-sans font-normal text-left normal-case tracking-normal leading-7;
+  }
+  #button {
+    @apply text-dp-bodytext-m-dt text-dp-grayscale-100 font-sans font-semibold text-center tracking-[1.25] bg-dp-blue-500 hover:bg-dp-blue-hover transition duration-500 w-fit rounded-[25px] py-[16.5px] px-[34px];
+  }
+  #navItems {
+    @apply text-dp-bodytext-m-dt text-dp-grayscale-100 font-alternative font-normal text-center normal-case tracking-[1.25];
+  }
+
   @font-face {
     font-family: 'Montserrat Alternates';
     src: url('/fonts/Montserrat-Alternates-SemiBold.woff2') format('woff2');
